@@ -58,7 +58,7 @@ def equiped_chatgpt(update, context):
 # Define a few command handlers. These usually take the two arguments update and context.
 def help_command(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /help is issued."""
-    update.message.reply_text('Helping you helping you.')
+    update.message.reply_text('Help????')
 
 def add(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /add is issued."""
