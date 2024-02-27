@@ -3,7 +3,7 @@ name: Fly Deploy v2
 on:
   push:
     branches:
-      - master # change to main if needed
+      - main
 
 jobs:
   deploy:
